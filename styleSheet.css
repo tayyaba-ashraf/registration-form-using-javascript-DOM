@@ -1,0 +1,82 @@
+body{
+background-color: gray;
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+margin: 0;
+}
+
+.container{
+background-color: white;
+border: 5px;
+box-shadow: 0 2px 5px;
+overflow: hidden;
+width: 600px;
+max-width: 100%;
+}
+
+.header{
+background-color: #32443a;
+border-bottom: 1px solid #f0f0f0;
+padding: 20px 40px;
+}
+
+.header h2{
+margin: 0;
+color: white;
+}
+
+.form{
+    padding: 30px 40px;
+
+}
+
+.form-control{
+margin-bottom: 5px;
+padding-bottom: 20px;
+position: relative;
+}
+
+.form-control input{
+ display: block;
+ border: 1px solid #f0f0f0;
+ border-radius: 4px;
+ font-size: 14px;
+ padding: 10px;
+ width: 100%;
+}
+
+.form-control label{
+    display: inline-block;
+    margin: 5px;
+}
+
+.form-control.success input{
+border-color: green;
+}
+
+.form-control.error input{
+    border-color: red;
+}
+
+
+.form-control small{
+    display: block;
+    color: red;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+}
+
+.form button{
+background-color: gray;
+border: 2px solid gainsboro;
+border-radius: 6px;
+color: white;
+width: 100%;
+font-size: 20px;
+font-weight: bold;
+padding: 8px;
+
+}
